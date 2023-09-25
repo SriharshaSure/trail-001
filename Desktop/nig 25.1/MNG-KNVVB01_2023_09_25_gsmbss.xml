@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<!--
+
+configuration snapshot: MNG_VBSC1_22Sept23-021
+snapshot uuid: cffbf935-67ba-41f3-9396-747a7eba4156
+created at: 2023-09-22 07:11:45.040944
+written at: 2023-09-22 07:11:45.516194
+GSM BSC release version: 8.7.0
+comments: BY2720 Power 37 to 40 dBmm
+
+created by: vanu_bootstrap
+built automatically by anywave config center version VanuBSS-6.7.0.66
+
+DO NOT EDIT
+
+-->
+<root leap_seconds_since_epoch="24">
+<cs_cn cell_identifier_element_discriminator="0" mobile_country_code="621" mobile_network_code="3 0 15" nri_length="6">
+  <cs_msc local_routing_context="1" msc_point_code="4-142-2" network_appearance="1" network_indicator="national" network_variant="ITU" nri_list="56 57 58" release="R99onwards">
+    ASMBC3
+    <ipsp_peer alternate_destination_address="10.226.136.42" local_port="2913" port="2905" primary_destination_address="10.226.136.34">
+      </ipsp_peer>
+      </cs_msc>
+    <cs_msc local_routing_context="1" msc_point_code="4-144-6" network_appearance="1" network_indicator="national" network_variant="ITU" nri_list="23 24 25" release="R99onwards">
+    ASMBC5
+    <ipsp_peer alternate_destination_address="10.226.85.209" local_port="2929" port="2905" primary_destination_address="10.226.85.194">
+      </ipsp_peer>
+      </cs_msc>
+    <cs_msc local_routing_context="1" msc_point_code="4-116-0" network_appearance="1" network_indicator="national" network_variant="ITU" nri_list="52 53 54" release="R99onwards">
+    ABMBC2
+    <ipsp_peer alternate_destination_address="10.209.136.26" local_port="2909" port="2905" primary_destination_address="10.209.136.18">
+      </ipsp_peer>
+      </cs_msc>
+    <cs_msc local_routing_context="1" msc_point_code="4-102-2" network_appearance="1" network_indicator="national" network_variant="ITU" nri_list="20 21 22" release="R99onwards">
+    LGMBC1
+    <ipsp_peer alternate_destination_address="10.200.136.10" local_port="2917" port="2905" primary_destination_address="10.200.136.2">
+      </ipsp_peer>
+      </cs_msc>
+    <cs_msc local_routing_context="1" msc_point_code="4-203-4" network_appearance="1" network_indicator="national" network_variant="ITU" nri_list="12 13 14" release="R99onwards">
+    OJMBC2
+    <ipsp_peer alternate_destination_address="10.199.136.26" local_port="2921" port="2905" primary_destination_address="10.199.136.18">
+      </ipsp_peer>
+      </cs_msc>
+    <cs_msc local_routing_context="1" msc_point_code="4-204-6" network_appearance="1" network_indicator="national" network_variant="ITU" nri_list="35 36 37" release="R99onwards">
+    OJMBC3
+    <ipsp_peer alternate_destination_address="10.199.136.90" local_port="2926" port="2905" primary_destination_address="10.199.136.82">
+      </ipsp_peer>
+      </cs_msc>
+    <cs_msc local_routing_context="1" msc_point_code="4-147-3" network_appearance="1" network_indicator="national" network_variant="ITU" nri_list="1 47" release="R99onwards">
+    ASMBC7
+    <ipsp_peer alternate_destination_address="10.226.106.113" local_port="2932" port="2905" primary_destination_address="10.226.106.97">
+      </ipsp_peer>
+      </cs_msc>
+    <cs_msc local_routing_context="1" msc_point_code="4-114-6" network_appearance="1" network_indicator="national" network_variant="ITU" nri_list="48 49 50" release="R99onwards">
+    ABMBC1
+    <ipsp_peer alternate_destination_address="10.209.136.10" local_port="2905" port="2905" primary_destination_address="10.209.136.2">
+      </ipsp_peer>
+      </cs_msc>
+    </cs_cn>
+  <sgsn nri_length="0" ns_over_r4_configuration_type="dynamic" release="R4onwards">
+  OJMME01
+  </sgsn>
+  <bsc bsc_abis_listen_port="28999" bsc_mgcp_port="2427" cipher_list="a51 a53" counter_ny1="50" delay_uplink_rtp="false" enable_snmp="true" handover_bad_quality_limit_dl="5" handover_bad_quality_limit_ul="5" host="10.201.165.1" mgcp_base_endpoint="0" mgcp_num_endpoints="2457667" point_code="4-30-4" SCCP_bssap_bsc_ssn="254" SCCP_reconnect_exponential_delay="0" SCCP_reconnect_linear_delay="1000" SCCP_reconnect_random_delay="0" SCCP_reset_ack_timeout_ms="5000" Sccp_variant="itu" timer_t11_duration_msec="1000" timer_t3101_duration_msec="2000" timer_t3103_duration_msec="5000" timer_t3105_duration_msec="100" timer_t3107_duration_msec="3000" timer_t3109_duration_msec="25000" timer_t3111_duration_msec="1000" timer_t3122_duration_sec="5" timer_t3142_duration_sec="5" timer_t8_duration_msec="5000" timer_tqho_duration_msec="0">
+  MNG-KNVVB01
+  <bsc_monitor bsc_local_port="64999" bsc_monitor_ip="10.201.165.1" bsc_monitor_port="65000">
+    </bsc_monitor>
+    </bsc>
+  <gb_aggregator deregistration_hysteresis_timer_secs="900" gb_host="10.210.162.20" gb_quat_port="3236" gbaggregator_gb_udp_port="3237" host="10.201.165.1" nri_list="" ns_alive_timeout="3" ns_reset_timeout="10" nsei="8107" nsvci="8107" sgsn_gb_udp_port="2157" sgsn_hostname="10.95.251.208">
+  GB-Aggregator-1
+  </gb_aggregator>
+  <trau bts_base_port="24000" bts_port_range="1000" cn_address="10.210.162.13" control_host="10.201.165.1" control_port="5423" firewall_host="10.210.162.13" host="10.201.165.1" max_calls="249" multiplex="0 249" rtp_base_port="12000" rtp_port_allocation_strategy="FIRST_FREE" rtp_port_range="500" rtp_port_step="2" trau_id="1">
+  KNVVB01-TRAU1
+  </trau>
+  <bts acs="false" allow_sdcch_handin="false" alpha="10" attach_detached_allowed="true" bad_cell_immass_low_limit="500" band="GSM900" bs_ag_blks_res="0" bs_pa_mfrms="2" bs_reserved="0" bsic="19" bvci="27201" cbch_reserved_sdcch4_subchannels="0 0 0 0" ccch_conf="0" cell_bar_qualify="false" cell_id="27201" cell_reselect_hysteresis="7" cell_reselect_offset="0" decrement_step_size="2" disable_bcch_config="false" dtx_indicator="1" enable_dual_sector="false" enable_lcs="true" enable_powersave_mode="true" enable_rach_search="false" enable_site_sync="false" eq_channel_estimate_alg="sync_to_local_maximum" frame_number_at_epoch="0" handover_low_signal_limit_dl_rxlev="30" handover_low_signal_limit_ul_rxlev="20" high_smoothing_number="3" hopping_arfcn_list="" hopping_sequence_number="0" hr_threshold="16" increment_step_size_low_power="2" location_area_code="16621" low_smoothing_number="3" max_num_sdcch_timeslots="5" max_rach_bit_errors="1" max_rach_ta="16" max_speech_tch_bit_errors="44" min_num_sdcch8_timeslots="1" min_rach_level_dbm="-100" ms_txpwr_max_cch="2" neci="false" penalty_time="0" power_control_algorithm="weightedRxQual" power_control_indicator="false" power_jitter="2" primary_f0="BY2720-TRX-1" quality_to_cir="2" rach_access_control_classes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" rach_call_reestablish="1" rach_cell_bar_access="0" rach_max_retransmissions="3" rach_txslots="14" radio_link_timeout="5" restart_on_zero_uplink_packets="false" rf_config="vanteon BY2720" routing_area_code="1" rx_level_lower_threshold="22" rx_level_upper_threshold="35" rx_level_vs_quality_weighting="50" rx_max_mobile_qual="5" rx_min_mobile_pwr="1" rx_samples_per_symbol="4" rxlevel_access_min="10" rxqual_smoothing_factor="0.8" rxqual_window_length="8" sacch_failure_threshold="20" supported_trau_list="" suppress_silence_frames="true" t3212_timeout="10" target_bs_rx_lev="30" target_quality="1" target_rf_setup_complete_ms="700" temporary_offset="0" traffic_handover_neighbor_max_disadvantage_db="10" traffic_handover_neighbor_min_rxlev="15" traffic_handover_signal_limit_dl_rxlev="30" trx_hardware_startup_delay_ms="0" tx_samples_per_symbol="4" uplink_chan_coding_scheme="1">
+  BY2720
+  <trx arfcn="76" enable_hr="true" gamma="26" host="10.28.73.148" is_hopping="false" local_abis_port="29092" local_gbis_port="29501" maio="0" modulator_max_gain="32000" num_rf_inputs="2" tei="6" timeslot_weights="64 49 63 62 61 60 59 58" trau_downlink_base_port="13000" tsc="3">
+    BY2720-TRX-1
+    </trx>
+    <trx arfcn="90" enable_hr="true" gamma="26" host="10.28.73.148" is_hopping="false" local_abis_port="29095" local_gbis_port="29502" maio="0" modulator_max_gain="32000" num_rf_inputs="2" tei="7" timeslot_weights="57 56 55 54 53 52 51 50" trau_downlink_base_port="13032" tsc="3">
+    BY2720-TRX-2
+    </trx>
+    <pcu dl_poll_rtt_msecs="250" downlink_reassignment_duration_msec="1000" downlink_rx_activity_duration_msec="10000" egprs_dl_starting_mcs="5" egprs_ul_starting_mcs="2" enable_dl_link_adaptation="false" enable_egprs="true" enable_extended_uplink="true" enable_ul_link_adaptation="false" extended_uplink_timer_msec="3000" final_ack_delay_msec="1000" gb_oversubscription_factor="2" gb_quat_max_retx_timer_secs="30" gbis_listen_port="30000" gprs_reservation="25" host="10.28.73.148" max_data_sessions_per_timeslot="3" max_dl_timeslots_per_tbf="3" max_downlink_reassignment_retries="5" max_polling_retries="10" max_ul_timeslots_per_tbf="2" min_tbf_bytes_for_perf_qual_consideration="1024" min_tbf_time_for_perf_qual_consideration="1" nacc_supported="true" next_pdu_duration_msec="10" num_cs_only_timeslots="1" num_guard_timeslots="1" polling_request_duration_msec="250" timer_3103_duration_msec="500" timer_3103_max_retries="3" timer_3169_duration_msec="5000" timer_3191_duration_msecs="5000" timer_3193_duration_msecs="210" timer_dl_delayed_tbf_msec="4000" timeslots_to_reserve="1" uplink_rx_activity_duration_msec="6000">
+    BY2720-PCU-2
+    <cell_throughput_algorithm_thresholds min_llc_throughput_for_expansion="1200" min_uplink_llc_pdu_count_for_expansion="6" min_uplink_llc_pdu_size_for_expansion="500" optimistic_phase_llc_throughput_to_contract="500" optimistic_phase_llc_throughput_to_expand="1200" steady_phase_llc_throughput_to_contract="2200" steady_phase_llc_throughput_to_expand="4000">
+      </cell_throughput_algorithm_thresholds>
+      </pcu>
+    <amr algorithm="basic" ber_averaging_factor="0.9" ber_history_length="100" fer_averaging_factor="1.0" fer_history_length="100" rate_adaptation_period="50" rxlev_averaging_factor="0.5" rxlev_history_length="100">
+    <amr_codec channel_type="full-rate" max_bts_ber="0.5" max_bts_fer="0.1" max_mobile_cir="5.0" min_bts_ber="0.022" min_mobile_cir="0.0">
+      4.75-fr
+      </amr_codec>
+      <amr_codec channel_type="half-rate" max_bts_ber="0.5" max_bts_fer="0.1" max_mobile_cir="12.5" min_bts_ber="0.006" min_mobile_cir="0.0">
+      4.75-hr
+      </amr_codec>
+      <amr_codec channel_type="full-rate" max_bts_ber="0.034" max_bts_fer="0.1" max_mobile_cir="7.5" min_bts_ber="0.007" min_mobile_cir="3.0">
+      5.90-fr
+      </amr_codec>
+      <amr_codec channel_type="half-rate" max_bts_ber="0.01" max_bts_fer="0.1" max_mobile_cir="16.5" min_bts_ber="0.002" min_mobile_cir="10.5">
+      5.90-hr
+      </amr_codec>
+      <amr_codec channel_type="full-rate" max_bts_ber="0.013" max_bts_fer="0.1" max_mobile_cir="13.5" min_bts_ber="0.0005" min_mobile_cir="5.5">
+      7.40-fr
+      </amr_codec>
+      <amr_codec channel_type="half-rate" max_bts_ber="0.0033" max_bts_fer="0.1" max_mobile_cir="31.5" min_bts_ber="0" min_mobile_cir="14.5">
+      7.40-hr
+      </amr_codec>
+      <amr_codec channel_type="full-rate" max_bts_ber="0.0008" max_bts_fer="0.1" max_mobile_cir="31.5" min_bts_ber="0" min_mobile_cir="11.5">
+      12.2-fr
+      </amr_codec>
+      </amr>
+    <downlink_power_control rx_level_lower_threshold="16" rx_level_upper_threshold="40" target_quality="1" tx_attenuation_upper_bound_db="12">
+    </downlink_power_control>
+    <idle_channel_supervision intave_timer_secs="5" interference_upperclasslimit_dbm="1 2 3 4" uplink_receiver_sensitivity="-110">
+    </idle_channel_supervision>
+    <speech_version downlink_rtp_max_jitter_buffer_ms="80" max_ptime_ms="20" priority="1" rtp_payload="110">
+    GSM_0610_EFR
+    </speech_version>
+    <speech_version downlink_rtp_max_jitter_buffer_ms="80" max_ptime_ms="20" priority="1" rtp_payload="112">
+    GSM_FR_AMR
+    </speech_version>
+    <speech_version downlink_rtp_max_jitter_buffer_ms="80" max_ptime_ms="20" priority="1" rtp_payload="112">
+    GSM_HR_AMR
+    </speech_version>
+    </bts>
+  <bts acs="false" allow_sdcch_handin="false" alpha="10" attach_detached_allowed="true" bad_cell_immass_low_limit="500" band="GSM900" bs_ag_blks_res="0" bs_pa_mfrms="2" bs_reserved="0" bsic="23" bvci="50371" cbch_reserved_sdcch4_subchannels="0 0 0 0" ccch_conf="0" cell_bar_qualify="false" cell_id="50371" cell_reselect_hysteresis="7" cell_reselect_offset="0" decrement_step_size="2" disable_bcch_config="false" dtx_indicator="1" enable_dual_sector="false" enable_lcs="true" enable_powersave_mode="true" enable_rach_search="false" enable_site_sync="false" eq_channel_estimate_alg="sync_to_local_maximum" frame_number_at_epoch="0" handover_low_signal_limit_dl_rxlev="30" handover_low_signal_limit_ul_rxlev="20" high_smoothing_number="3" hopping_arfcn_list="" hopping_sequence_number="0" hr_threshold="16" increment_step_size_low_power="2" location_area_code="16621" low_smoothing_number="3" max_num_sdcch_timeslots="5" max_rach_bit_errors="1" max_rach_ta="16" max_speech_tch_bit_errors="44" min_num_sdcch8_timeslots="1" min_rach_level_dbm="-102" ms_txpwr_max_cch="2" neci="false" penalty_time="0" power_control_algorithm="weightedRxQual" power_control_indicator="false" power_jitter="2" primary_f0="DL5037-TRX-1" quality_to_cir="2" rach_access_control_classes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" rach_call_reestablish="1" rach_cell_bar_access="0" rach_max_retransmissions="3" rach_txslots="14" radio_link_timeout="5" restart_on_zero_uplink_packets="false" rf_config="vanteon DL5037" routing_area_code="1" rx_level_lower_threshold="22" rx_level_upper_threshold="35" rx_level_vs_quality_weighting="50" rx_max_mobile_qual="5" rx_min_mobile_pwr="1" rx_samples_per_symbol="4" rxlevel_access_min="5" rxqual_smoothing_factor="0.8" rxqual_window_length="8" sacch_failure_threshold="20" supported_trau_list="" suppress_silence_frames="true" t3212_timeout="10" target_bs_rx_lev="30" target_quality="1" target_rf_setup_complete_ms="700" temporary_offset="0" traffic_handover_neighbor_max_disadvantage_db="10" traffic_handover_neighbor_min_rxlev="15" traffic_handover_signal_limit_dl_rxlev="30" trx_hardware_startup_delay_ms="0" tx_samples_per_symbol="4" uplink_chan_coding_scheme="1">
+  DL5037
+  <trx arfcn="76" enable_hr="true" gamma="26" host="10.28.73.26" is_hopping="false" local_abis_port="28153" local_gbis_port="29501" maio="0" modulator_max_gain="32000" num_rf_inputs="2" tei="5" timeslot_weights="64 49 63 62 61 60 59 58" trau_downlink_base_port="13000" tsc="7">
+    DL5037-TRX-1
+    </trx>
+    <trx arfcn="47" enable_hr="true" gamma="26" host="10.28.73.26" is_hopping="false" local_abis_port="28163" local_gbis_port="29502" maio="0" modulator_max_gain="32000" num_rf_inputs="2" tei="8" timeslot_weights="57 56 55 54 53 52 51 50" trau_downlink_base_port="13032" tsc="7">
+    DL5037-TRX-2
+    </trx>
+    <pcu dl_poll_rtt_msecs="250" downlink_reassignment_duration_msec="1000" downlink_rx_activity_duration_msec="10000" egprs_dl_starting_mcs="5" egprs_ul_starting_mcs="2" enable_dl_link_adaptation="false" enable_egprs="true" enable_extended_uplink="true" enable_ul_link_adaptation="false" extended_uplink_timer_msec="3000" final_ack_delay_msec="1000" gb_oversubscription_factor="2" gb_quat_max_retx_timer_secs="30" gbis_listen_port="30000" gprs_reservation="25" host="10.28.73.26" max_data_sessions_per_timeslot="3" max_dl_timeslots_per_tbf="3" max_downlink_reassignment_retries="5" max_polling_retries="10" max_ul_timeslots_per_tbf="2" min_tbf_bytes_for_perf_qual_consideration="1024" min_tbf_time_for_perf_qual_consideration="1" nacc_supported="true" next_pdu_duration_msec="10" num_cs_only_timeslots="1" num_guard_timeslots="1" polling_request_duration_msec="250" timer_3103_duration_msec="500" timer_3103_max_retries="3" timer_3169_duration_msec="5000" timer_3191_duration_msecs="5000" timer_3193_duration_msecs="210" timer_dl_delayed_tbf_msec="4000" timeslots_to_reserve="1" uplink_rx_activity_duration_msec="6000">
+    DL5037-PCU
+    <cell_throughput_algorithm_thresholds min_llc_throughput_for_expansion="1200" min_uplink_llc_pdu_count_for_expansion="6" min_uplink_llc_pdu_size_for_expansion="500" optimistic_phase_llc_throughput_to_contract="500" optimistic_phase_llc_throughput_to_expand="1200" steady_phase_llc_throughput_to_contract="2200" steady_phase_llc_throughput_to_expand="4000">
+      </cell_throughput_algorithm_thresholds>
+      </pcu>
+    <amr algorithm="basic" ber_averaging_factor="0.9" ber_history_length="100" fer_averaging_factor="1.0" fer_history_length="100" rate_adaptation_period="50" rxlev_averaging_factor="0.5" rxlev_history_length="100">
+    <amr_codec channel_type="full-rate" max_bts_ber="0.5" max_bts_fer="0.1" max_mobile_cir="5.0" min_bts_ber="0.022" min_mobile_cir="0.0">
+      4.75-fr
+      </amr_codec>
+      <amr_codec channel_type="half-rate" max_bts_ber="0.5" max_bts_fer="0.1" max_mobile_cir="12.5" min_bts_ber="0.006" min_mobile_cir="0.0">
+      4.75-hr
+      </amr_codec>
+      <amr_codec channel_type="full-rate" max_bts_ber="0.034" max_bts_fer="0.1" max_mobile_cir="7.5" min_bts_ber="0.007" min_mobile_cir="3.0">
+      5.90-fr
+      </amr_codec>
+      <amr_codec channel_type="half-rate" max_bts_ber="0.01" max_bts_fer="0.1" max_mobile_cir="16.5" min_bts_ber="0.002" min_mobile_cir="10.5">
+      5.90-hr
+      </amr_codec>
+      <amr_codec channel_type="full-rate" max_bts_ber="0.013" max_bts_fer="0.1" max_mobile_cir="13.5" min_bts_ber="0.0005" min_mobile_cir="5.5">
+      7.40-fr
+      </amr_codec>
+      <amr_codec channel_type="half-rate" max_bts_ber="0.0033" max_bts_fer="0.1" max_mobile_cir="31.5" min_bts_ber="0" min_mobile_cir="14.5">
+      7.40-hr
+      </amr_codec>
+      <amr_codec channel_type="full-rate" max_bts_ber="0.0008" max_bts_fer="0.1" max_mobile_cir="31.5" min_bts_ber="0" min_mobile_cir="11.5">
+      12.2-fr
+      </amr_codec>
+      </amr>
+    <downlink_power_control rx_level_lower_threshold="16" rx_level_upper_threshold="40" target_quality="1" tx_attenuation_upper_bound_db="12">
+    </downlink_power_control>
+    <idle_channel_supervision intave_timer_secs="5" interference_upperclasslimit_dbm="1 2 3 4" uplink_receiver_sensitivity="-110">
+    </idle_channel_supervision>
+    <speech_version downlink_rtp_max_jitter_buffer_ms="80" max_ptime_ms="20" priority="1" rtp_payload="110">
+    GSM_0610_EFR
+    </speech_version>
+    <speech_version downlink_rtp_max_jitter_buffer_ms="80" max_ptime_ms="20" priority="1" rtp_payload="112">
+    GSM_FR_AMR
+    </speech_version>
+    <speech_version downlink_rtp_max_jitter_buffer_ms="80" max_ptime_ms="20" priority="1" rtp_payload="112">
+    GSM_HR_AMR
+    </speech_version>
+    </bts>
+  <bts acs="false" allow_sdcch_handin="false" alpha="10" attach_detached_allowed="true" bad_cell_immass_low_limit="500" band="GSM900" bs_ag_blks_res="0" bs_pa_mfrms="2" bs_reserved="0" bsic="37" bvci="48591" cbch_reserved_sdcch4_subchannels="0 0 0 0" ccch_conf="0" cell_bar_qualify="false" cell_id="48591" cell_reselect_hysteresis="7" cell_reselect_offset="0" decrement_step_size="2" disable_bcch_config="false" dtx_indicator="1" enable_dual_sector="false" enable_lcs="true" enable_powersave_mode="true" enable_rach_search="false" enable_site_sync="false" eq_channel_estimate_alg="sync_to_local_maximum" frame_number_at_epoch="0" handover_low_signal_limit_dl_rxlev="30" handover_low_signal_limit_ul_rxlev="20" high_smoothing_number="3" hopping_arfcn_list="" hopping_sequence_number="0" hr_threshold="16" increment_step_size_low_power="2" location_area_code="16621" low_smoothing_number="3" max_num_sdcch_timeslots="5" max_rach_bit_errors="1" max_rach_ta="16" max_speech_tch_bit_errors="44" min_num_sdcch8_timeslots="1" min_rach_level_dbm="-102" ms_txpwr_max_cch="2" neci="false" penalty_time="0" power_control_algorithm="weightedRxQual" power_control_indicator="false" power_jitter="2" primary_f0="ED4859-TRX-1" quality_to_cir="2" rach_access_control_classes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" rach_call_reestablish="1" rach_cell_bar_access="0" rach_max_retransmissions="3" rach_txslots="14" radio_link_timeout="5" restart_on_zero_uplink_packets="false" rf_config="vanteon ED4859" routing_area_code="1" rx_level_lower_threshold="22" rx_level_upper_threshold="35" rx_level_vs_quality_weighting="50" rx_max_mobile_qual="5" rx_min_mobile_pwr="1" rx_samples_per_symbol="4" rxlevel_access_min="5" rxqual_smoothing_factor="0.8" rxqual_window_length="8" sacch_failure_threshold="20" supported_trau_list="" suppress_silence_frames="true" t3212_timeout="10" target_bs_rx_lev="30" target_quality="1" target_rf_setup_complete_ms="700" temporary_offset="0" traffic_handover_neighbor_max_disadvantage_db="10" traffic_handover_neighbor_min_rxlev="15" traffic_handover_signal_limit_dl_rxlev="30" trx_hardware_startup_delay_ms="0" tx_samples_per_symbol="4" uplink_chan_coding_scheme="1">
+  ED4859
+  <trx arfcn="76" enable_hr="true" gamma="26" host="10.28.73.18" is_hopping="false" local_abis_port="28335" local_gbis_port="29501" maio="0" modulator_max_gain="32000" num_rf_inputs="2" tei="9" timeslot_weights="64 49 63 62 61 60 59 58" trau_downlink_base_port="13000" tsc="5">
+    ED4859-TRX-1
+    </trx>
+    <trx arfcn="90" enable_hr="true" gamma="26" host="10.28.73.18" is_hopping="false" local_abis_port="28345" local_gbis_port="29502" maio="0" modulator_max_gain="32000" num_rf_inputs="2" tei="11" timeslot_weights="57 56 55 54 53 52 51 50" trau_downlink_base_port="13032" tsc="5">
+    ED4859-TRX-2
+    </trx>
+    <pcu dl_poll_rtt_msecs="250" downlink_reassignment_duration_msec="1000" downlink_rx_activity_duration_msec="10000" egprs_dl_starting_mcs="5" egprs_ul_starting_mcs="2" enable_dl_link_adaptation="false" enable_egprs="true" enable_extended_uplink="true" enable_ul_link_adaptation="false" extended_uplink_timer_msec="3000" final_ack_delay_msec="1000" gb_oversubscription_factor="2" gb_quat_max_retx_timer_secs="30" gbis_listen_port="30000" gprs_reservation="25" host="10.28.73.18" max_data_sessions_per_timeslot="3" max_dl_timeslots_per_tbf="1" max_downlink_reassignment_retries="5" max_polling_retries="10" max_ul_timeslots_per_tbf="1" min_tbf_bytes_for_perf_qual_consideration="1024" min_tbf_time_for_perf_qual_consideration="1" nacc_supported="true" next_pdu_duration_msec="10" num_cs_only_timeslots="1" num_guard_timeslots="1" polling_request_duration_msec="250" timer_3103_duration_msec="500" timer_3103_max_retries="3" timer_3169_duration_msec="5000" timer_3191_duration_msecs="5000" timer_3193_duration_msecs="210" timer_dl_delayed_tbf_msec="4000" timeslots_to_reserve="1" uplink_rx_activity_duration_msec="6000">
+    ED4859-PCU
+    <cell_throughput_algorithm_thresholds min_llc_throughput_for_expansion="1200" min_uplink_llc_pdu_count_for_expansion="6" min_uplink_llc_pdu_size_for_expansion="500" optimistic_phase_llc_throughput_to_contract="500" optimistic_phase_llc_throughput_to_expand="1200" steady_phase_llc_throughput_to_contract="2200" steady_phase_llc_throughput_to_expand="4000">
+      </cell_throughput_algorithm_thresholds>
+      </pcu>
+    <amr algorithm="basic" ber_averaging_factor="0.9" ber_history_length="100" fer_averaging_factor="1.0" fer_history_length="100" rate_adaptation_period="50" rxlev_averaging_factor="0.5" rxlev_history_length="100">
+    <amr_codec channel_type="full-rate" max_bts_ber="0.5" max_bts_fer="0.1" max_mobile_cir="5.0" min_bts_ber="0.022" min_mobile_cir="0.0">
+      4.75-fr
+      </amr_codec>
+      <amr_codec channel_type="half-rate" max_bts_ber="0.5" max_bts_fer="0.1" max_mobile_cir="12.5" min_bts_ber="0.006" min_mobile_cir="0.0">
+      4.75-hr
+      </amr_codec>
+      <amr_codec channel_type="full-rate" max_bts_ber="0.034" max_bts_fer="0.1" max_mobile_cir="7.5" min_bts_ber="0.007" min_mobile_cir="3.0">
+      5.90-fr
+      </amr_codec>
+      <amr_codec channel_type="half-rate" max_bts_ber="0.01" max_bts_fer="0.1" max_mobile_cir="16.5" min_bts_ber="0.002" min_mobile_cir="10.5">
+      5.90-hr
+      </amr_codec>
+      <amr_codec channel_type="full-rate" max_bts_ber="0.013" max_bts_fer="0.1" max_mobile_cir="13.5" min_bts_ber="0.0005" min_mobile_cir="5.5">
+      7.40-fr
+      </amr_codec>
+      <amr_codec channel_type="half-rate" max_bts_ber="0.0033" max_bts_fer="0.1" max_mobile_cir="31.5" min_bts_ber="0" min_mobile_cir="14.5">
+      7.40-hr
+      </amr_codec>
+      <amr_codec channel_type="full-rate" max_bts_ber="0.0008" max_bts_fer="0.1" max_mobile_cir="31.5" min_bts_ber="0" min_mobile_cir="11.5">
+      12.2-fr
+      </amr_codec>
+      </amr>
+    <downlink_power_control rx_level_lower_threshold="16" rx_level_upper_threshold="40" target_quality="1" tx_attenuation_upper_bound_db="12">
+    </downlink_power_control>
+    <idle_channel_supervision intave_timer_secs="5" interference_upperclasslimit_dbm="1 2 3 4" uplink_receiver_sensitivity="-110">
+    </idle_channel_supervision>
+    <speech_version downlink_rtp_max_jitter_buffer_ms="80" max_ptime_ms="20" priority="1" rtp_payload="110">
+    GSM_0610_EFR
+    </speech_version>
+    <speech_version downlink_rtp_max_jitter_buffer_ms="80" max_ptime_ms="20" priority="1" rtp_payload="112">
+    GSM_FR_AMR
+    </speech_version>
+    <speech_version downlink_rtp_max_jitter_buffer_ms="80" max_ptime_ms="20" priority="1" rtp_payload="112">
+    GSM_HR_AMR
+    </speech_version>
+    </bts>
+  <bts acs="false" allow_sdcch_handin="false" alpha="10" attach_detached_allowed="true" bad_cell_immass_low_limit="500" band="GSM900" bs_ag_blks_res="0" bs_pa_mfrms="2" bs_reserved="0" bsic="20" bvci="19931" cbch_reserved_sdcch4_subchannels="0 0 0 0" ccch_conf="1" cell_bar_qualify="false" cell_id="19931" cell_reselect_hysteresis="7" cell_reselect_offset="0" decrement_step_size="2" disable_bcch_config="false" dtx_indicator="1" enable_dual_sector="false" enable_lcs="true" enable_powersave_mode="true" enable_rach_search="false" enable_site_sync="false" eq_channel_estimate_alg="sync_to_local_maximum" frame_number_at_epoch="0" handover_low_signal_limit_dl_rxlev="30" handover_low_signal_limit_ul_rxlev="20" high_smoothing_number="3" hopping_arfcn_list="" hopping_sequence_number="0" hr_threshold="12" increment_step_size_low_power="2" location_area_code="16621" low_smoothing_number="3" max_num_sdcch_timeslots="5" max_rach_bit_errors="1" max_rach_ta="63" max_speech_tch_bit_errors="44" min_num_sdcch8_timeslots="1" min_rach_level_dbm="-98" ms_txpwr_max_cch="2" neci="false" penalty_time="0" power_control_algorithm="weightedRxQual" power_control_indicator="false" power_jitter="2" primary_f0="TestBTS-1-TRX-1" quality_to_cir="2" rach_access_control_classes="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" rach_call_reestablish="1" rach_cell_bar_access="0" rach_max_retransmissions="3" rach_txslots="3" radio_link_timeout="5" restart_on_zero_uplink_packets="false" rf_config="vanteon TestBTS-1" routing_area_code="1" rx_level_lower_threshold="22" rx_level_upper_threshold="35" rx_level_vs_quality_weighting="50" rx_max_mobile_qual="5" rx_min_mobile_pwr="1" rx_samples_per_symbol="4" rxlevel_access_min="10" rxqual_smoothing_factor="0.8" rxqual_window_length="8" sacch_failure_threshold="20" supported_trau_list="" suppress_silence_frames="true" t3212_timeout="10" target_bs_rx_lev="30" target_quality="1" target_rf_setup_complete_ms="700" temporary_offset="0" traffic_handover_neighbor_max_disadvantage_db="10" traffic_handover_neighbor_min_rxlev="15" traffic_handover_signal_limit_dl_rxlev="30" trx_hardware_startup_delay_ms="0" tx_samples_per_symbol="4" uplink_chan_coding_scheme="1">
+  TestBTS-1
+  <trx arfcn="88" enable_hr="true" gamma="26" host="10.28.73.38" is_hopping="false" local_abis_port="28030" local_gbis_port="29501" maio="0" modulator_max_gain="32000" num_rf_inputs="1" tei="10" timeslot_weights="64 49 63 62 61 60 59 58" trau_downlink_base_port="13000" tsc="4">
+    TestBTS-1-TRX-1
+    </trx>
+    <pcu dl_poll_rtt_msecs="250" downlink_reassignment_duration_msec="1000" downlink_rx_activity_duration_msec="10000" egprs_dl_starting_mcs="5" egprs_ul_starting_mcs="2" enable_dl_link_adaptation="true" enable_egprs="true" enable_extended_uplink="true" enable_ul_link_adaptation="true" extended_uplink_timer_msec="3000" final_ack_delay_msec="1000" gb_oversubscription_factor="2" gb_quat_max_retx_timer_secs="30" gbis_listen_port="30000" gprs_reservation="25" host="10.28.73.38" max_data_sessions_per_timeslot="1" max_dl_timeslots_per_tbf="3" max_downlink_reassignment_retries="5" max_polling_retries="10" max_ul_timeslots_per_tbf="2" min_tbf_bytes_for_perf_qual_consideration="1024" min_tbf_time_for_perf_qual_consideration="1" nacc_supported="true" next_pdu_duration_msec="10" num_cs_only_timeslots="1" num_guard_timeslots="1" polling_request_duration_msec="250" timer_3103_duration_msec="500" timer_3103_max_retries="3" timer_3169_duration_msec="5000" timer_3191_duration_msecs="5000" timer_3193_duration_msecs="210" timer_dl_delayed_tbf_msec="4000" timeslots_avail_for_data="5" timeslots_to_reserve="1" uplink_rx_activity_duration_msec="6000">
+    TestBTS-PCU-1
+    <cell_throughput_algorithm_thresholds min_llc_throughput_for_expansion="1200" min_uplink_llc_pdu_count_for_expansion="6" min_uplink_llc_pdu_size_for_expansion="500" optimistic_phase_llc_throughput_to_contract="500" optimistic_phase_llc_throughput_to_expand="1200" steady_phase_llc_throughput_to_contract="2200" steady_phase_llc_throughput_to_expand="4000">
+      </cell_throughput_algorithm_thresholds>
+      </pcu>
+    <amr algorithm="basic" ber_averaging_factor="0.9" ber_history_length="100" fer_averaging_factor="1.0" fer_history_length="100" rate_adaptation_period="50" rxlev_averaging_factor="0.5" rxlev_history_length="100">
+    <amr_codec channel_type="full-rate" max_bts_ber="0.5" max_bts_fer="0.1" max_mobile_cir="5.0" min_bts_ber="0.022" min_mobile_cir="0.0">
+      4.75-fr
+      </amr_codec>
+      <amr_codec channel_type="half-rate" max_bts_ber="0.5" max_bts_fer="0.1" max_mobile_cir="12.5" min_bts_ber="0.006" min_mobile_cir="0.0">
+      4.75-hr
+      </amr_codec>
+      <amr_codec channel_type="full-rate" max_bts_ber="0.034" max_bts_fer="0.1" max_mobile_cir="7.5" min_bts_ber="0.007" min_mobile_cir="3.0">
+      5.90-fr
+      </amr_codec>
+      <amr_codec channel_type="half-rate" max_bts_ber="0.01" max_bts_fer="0.1" max_mobile_cir="16.5" min_bts_ber="0.002" min_mobile_cir="10.5">
+      5.90-hr
+      </amr_codec>
+      <amr_codec channel_type="full-rate" max_bts_ber="0.013" max_bts_fer="0.1" max_mobile_cir="13.5" min_bts_ber="0.0005" min_mobile_cir="5.5">
+      7.40-fr
+      </amr_codec>
+      <amr_codec channel_type="half-rate" max_bts_ber="0.0033" max_bts_fer="0.1" max_mobile_cir="31.5" min_bts_ber="0" min_mobile_cir="14.5">
+      7.40-hr
+      </amr_codec>
+      <amr_codec channel_type="full-rate" max_bts_ber="0.0008" max_bts_fer="0.1" max_mobile_cir="31.5" min_bts_ber="0" min_mobile_cir="11.5">
+      12.2-fr
+      </amr_codec>
+      </amr>
+    <downlink_power_control rx_level_lower_threshold="16" rx_level_upper_threshold="40" target_quality="1" tx_attenuation_upper_bound_db="12">
+    </downlink_power_control>
+    <idle_channel_supervision intave_timer_secs="5" interference_upperclasslimit_dbm="1 2 3 4" uplink_receiver_sensitivity="-110">
+    </idle_channel_supervision>
+    <speech_version downlink_rtp_max_jitter_buffer_ms="80" max_ptime_ms="20" priority="1" rtp_payload="110">
+    GSM_0610_EFR
+    </speech_version>
+    <speech_version downlink_rtp_max_jitter_buffer_ms="80" max_ptime_ms="20" priority="1" rtp_payload="112">
+    GSM_FR_AMR
+    </speech_version>
+    <speech_version downlink_rtp_max_jitter_buffer_ms="80" max_ptime_ms="20" priority="1" rtp_payload="112">
+    GSM_HR_AMR
+    </speech_version>
+    </bts>
+  <vanteon ant0_adjustment_db="0.0" ant1_adjustment_db="0.0" conversion_factor="-143.0" overtemp_degC="80" pa_over_voltage_percent="10.0" pa_under_voltage_percent="10.0" pcb_overtemp_degC="82" reverse_rf_ports="false" tx_power_level_dbm="40.0" vswr_alarm_level="2.0" vswr_upper_bound="5.0">
+  BY2720
+  </vanteon>
+  <vanteon ant0_adjustment_db="0.0" ant1_adjustment_db="0.0" conversion_factor="-143.0" overtemp_degC="80" pa_over_voltage_percent="10.0" pa_under_voltage_percent="10.0" pcb_overtemp_degC="82" reverse_rf_ports="false" tx_power_level_dbm="40.0" vswr_alarm_level="2.0" vswr_upper_bound="10.0">
+  DL5037
+  </vanteon>
+  <vanteon ant0_adjustment_db="0.0" ant1_adjustment_db="0.0" conversion_factor="-143.0" overtemp_degC="80" pa_over_voltage_percent="10.0" pa_under_voltage_percent="10.0" pcb_overtemp_degC="82" reverse_rf_ports="false" tx_power_level_dbm="40.0" vswr_alarm_level="2.0" vswr_upper_bound="10.0">
+  ED4859
+  </vanteon>
+  <vanteon ant0_adjustment_db="0.0" ant1_adjustment_db="0.0" conversion_factor="-143.0" overtemp_degC="80" pa_over_voltage_percent="40.0" pa_under_voltage_percent="10.0" pcb_overtemp_degC="82" reverse_rf_ports="false" tx_power_level_dbm="40.0" vswr_alarm_level="2.0" vswr_upper_bound="5.5">
+  TestBTS-1
+  </vanteon>
+  <a_manager a_quat_port="8007" a_signaling_host="10.210.162.4 10.210.162.5" host="10.201.165.1" supported_msc="ABMBC1">
+  ABMBC1
+  </a_manager>
+  <a_manager a_quat_port="8002" a_signaling_host="10.210.162.4 10.210.162.5" host="10.201.165.1" supported_msc="ABMBC2">
+  ABMBC2
+  </a_manager>
+  <a_manager a_quat_port="8000" a_signaling_host="10.210.162.4 10.210.162.5" host="10.201.165.1" supported_msc="ASMBC3">
+  ASMBC3
+  </a_manager>
+  <a_manager a_quat_port="8001" a_signaling_host="10.210.162.4 10.210.162.5" host="10.201.165.1" supported_msc="ASMBC5">
+  ASMBC5
+  </a_manager>
+  <a_manager a_quat_port="8006" a_signaling_host="10.210.162.4 10.210.162.5" host="10.201.165.1" supported_msc="ASMBC7">
+  ASMBC7
+  </a_manager>
+  <a_manager a_quat_port="8003" a_signaling_host="10.210.162.4 10.210.162.5" host="10.201.165.1" supported_msc="LGMBC1">
+  LGMBC1
+  </a_manager>
+  <a_manager a_quat_port="8004" a_signaling_host="10.210.162.4 10.210.162.5" host="10.201.165.1" supported_msc="OJMBC2">
+  OJMBC2
+  </a_manager>
+  <a_manager a_quat_port="8005" a_signaling_host="10.210.162.4 10.210.162.5" host="10.201.165.1" supported_msc="OJMBC3">
+  OJMBC3
+  </a_manager>
+  <smart_network_proxy smart_network_host="10.201.165.1" smart_network_port="7998">
+  qos-monitor-MNG-KNVVB01
+  </smart_network_proxy>
+  </root>
+
